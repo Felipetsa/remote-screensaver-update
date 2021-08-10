@@ -6,7 +6,7 @@
 # AUTHOR:  Felipe Sa
 # DATE:  10/08/2021
 # 
-# COMMENT:  This script will pull files to machines remotely on the network (to update Screensaver in this example. Must be used in conjunction with a GPO)
+# COMMENT:  This script will pull files to machines remotely on the network (to update the screensaver in this example: must be used in conjunction with a GPO)
 #
 # VERSION HISTORY
 # 1.0 10.08.2021 Initial Version.
