@@ -1,3 +1,18 @@
+# #############################################################################
+#
+# POWERSHELL
+# NAME: Remote_SS_Update.ps1
+# 
+# AUTHOR:  Felipe Sa
+# DATE:  10/08/2021
+# 
+# COMMENT:  This script will pull files to machines remotely on the network (to update Screensaver in this example. Must be used in conjunction with a GPO)
+#
+# VERSION HISTORY
+# 1.0 10.08.2021 Initial Version.
+#
+# #############################################################################
+
 $computers = Get-Content 'C:\Users\USERNAME\Desktop\Screensaver\Comps.txt' #Computer list (one per row)
 
 #$source = "\\SERVERNAME\Screensaver\Pictures\*.*" #Get pictures from a location on the network
